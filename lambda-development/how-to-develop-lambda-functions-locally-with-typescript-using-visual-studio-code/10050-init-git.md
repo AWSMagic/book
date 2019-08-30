@@ -1,4 +1,4 @@
-# Initialize Git
+# Initialize Git Repository
 
 TODO: configure credential helper and document here
 
@@ -12,7 +12,7 @@ $ cd $LAMDADIR
 $ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one .
 ```
 
-## Option 2: Init repo and add origin
+## Option 2: Initialize git repo and add origin
 
 ```bash
 $ cd $LAMDADIR
