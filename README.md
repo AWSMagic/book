@@ -1,0 +1,2 @@
+# Spells for AWS
+
