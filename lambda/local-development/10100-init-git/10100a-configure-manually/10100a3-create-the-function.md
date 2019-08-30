@@ -6,7 +6,6 @@ Create `src` folder and switch to it.
 $ cd $LAMBDADIR
 $ mkdir src
 $ cd src
-
 ```
 
 Create `index.ts` under `src` folder and paste the code below into the `index.ts` file.
@@ -24,10 +23,11 @@ export const handler = async (event: any = {}, content: any = {}): Promise<any> 
 
 Create `event.json` for testing.
 
-```json
+```javascript
 {
   "key1": "value1",
   "key2": "value2",
   "key3": "value3"
 }
 ```
+

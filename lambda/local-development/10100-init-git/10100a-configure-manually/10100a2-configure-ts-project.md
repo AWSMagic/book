@@ -1,4 +1,4 @@
-# Configure TypeScript Project
+# Configure TypeScript
 
 Create typescript config file.
 
@@ -7,11 +7,11 @@ $ cd $LAMBDADIR
 $ tsc --init
 ```
 
-The command above will create the `tsconfig.json` file with all the available options. 
+The command above will create the `tsconfig.json` file with all the available options.
 
 Change `tsconfig.json` to look like below.
 
-```json
+```javascript
 {
   "compilerOptions": {
     "target": "es2017",
@@ -29,3 +29,4 @@ Change `tsconfig.json` to look like below.
   }
 }
 ```
+

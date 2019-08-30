@@ -4,9 +4,9 @@ description: >-
   Code
 ---
 
-# Lambda Development
+# Local Development
 
-{% hint style="working" %}
+{% hint style="success" %}
 Create an environment where we can develop multiple lambda functions locally.
 {% endhint %}
 

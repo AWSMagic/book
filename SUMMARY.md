@@ -13,14 +13,12 @@
   * [Create Lambda Folder](lambda/local-development/10040-create-lambda-folder.md)
   * [Install Node.js](lambda/local-development/10060-install-node.md)
   * [Install TypeScript](lambda/local-development/10090-install-typescript.md)
-  * [Initialize Git Repository](lambda/local-development/10100-init-git.md)
-    * [Configure Manually](lambda/local-development/10100A-configure-manually.md)
-      * [Create Node Project](lambda/local-development/10100A1-create-node-project.md)
-      * [Configure TypeScript](lambda/local-development/10100A2-configure-ts-project.md)
-      * [Create Lambda Function](lambda/local-development/10100A3-create-the-function.md)
-      * [Configure SAM](lambda/local-development/10100A4-configure-sam.md)
-      * [Configure VSCode](lambda/local-development/10100A5-configure-vscode.md)
-    * [Use Starter-Kit](lambda/local-development/10100B-use-starter-kit.md)
-  
-
+  * [Initialize Git Repository](lambda/local-development/10100-init-git/README.md)
+    * [Configure Manually](lambda/local-development/10100-init-git/10100a-configure-manually/README.md)
+      * [Create Node Project](lambda/local-development/10100-init-git/10100a-configure-manually/10100a1-create-node-project.md)
+      * [Configure TypeScript](lambda/local-development/10100-init-git/10100a-configure-manually/10100a2-configure-ts-project.md)
+      * [Create Lambda Function](lambda/local-development/10100-init-git/10100a-configure-manually/10100a3-create-the-function.md)
+      * [Configure SAM](lambda/local-development/10100-init-git/10100a-configure-manually/10100a4-configure-sam.md)
+      * [Configure VSCode](lambda/local-development/10100-init-git/10100a-configure-manually/10100a5-configure-vscode.md)
+    * [Use Starter-Kit](lambda/local-development/10100-init-git/10100b-use-starter-kit.md)
 

@@ -25,5 +25,3 @@ $ export AWS_DEFAULT_PROFILE=lambda-developer
 Credentials above are fake, but yours should look very similar.
 {% endhint %}
 
-
-

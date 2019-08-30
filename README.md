@@ -1,2 +1,2 @@
-# Welcome to AWS Magic
+# Welcome
 

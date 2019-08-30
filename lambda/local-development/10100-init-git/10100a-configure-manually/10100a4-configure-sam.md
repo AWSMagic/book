@@ -1,4 +1,4 @@
-# Create SAM Template
+# Configure SAM
 
 Make sure you are in `$LAMBDADIR` folder.
 
@@ -29,3 +29,4 @@ Resources:
         Variables:
           Stage: DEV
 ```
+

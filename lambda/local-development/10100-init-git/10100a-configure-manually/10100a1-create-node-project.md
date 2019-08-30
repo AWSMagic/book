@@ -1,4 +1,4 @@
-# Create a Node Project.
+# Create Node Project
 
 ```bash
 $ cd $LAMBDADIR
@@ -7,7 +7,7 @@ $ npm init -y
 
 You will see an output similar to below.
 
-```json
+```javascript
 Wrote to /Users/ozakan/src/temp/workspace/function-one/package.json:
 
 {
@@ -26,12 +26,11 @@ Wrote to /Users/ozakan/src/temp/workspace/function-one/package.json:
   "author": "",
   "license": "ISC"
 }
-
 ```
 
 Replace the content of `package.json` so it will look like below;
 
-```json
+```javascript
 {
   "name": "function-one",
   "version": "1.0.0",
@@ -55,3 +54,4 @@ Replace the content of `package.json` so it will look like below;
   }
 }
 ```
+

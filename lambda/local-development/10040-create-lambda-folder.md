@@ -1,4 +1,4 @@
-# Create Lambda Development Folder
+# Create Lambda Folder
 
 Create a folder to develop your lambda function. We will name this folder `function-one`.
 
@@ -8,3 +8,4 @@ $ mkdir function-one
 $ LAMBDADIR=$WORKSPACE/function-one
 $ cd functionOne // or cd $LAMBDADIR
 ```
+

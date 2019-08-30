@@ -1,8 +1,8 @@
-# Configure Visual Studio Code
+# Configure VSCode
 
 Create `.vscode/launch.json` file with the code below
 
-```json
+```javascript
 {
   "version": "0.2.0",
   "configurations": [
@@ -27,7 +27,7 @@ Create `.vscode/launch.json` file with the code below
 
 Create `.vscode/tasks.json` file with the code below
 
-```json
+```javascript
 {
   "version": "2.0.0",
   "tasks": [
@@ -47,7 +47,7 @@ Create `.vscode/tasks.json` file with the code below
 
 Create `.vscode/settings.json` with the code below
 
-```json
+```javascript
 {
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 10000,
@@ -62,3 +62,4 @@ Create `.vscode/settings.json` with the code below
   "explorer.autoReveal": true
 }
 ```
+
