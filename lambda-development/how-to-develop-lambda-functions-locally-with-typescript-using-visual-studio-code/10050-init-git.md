@@ -14,6 +14,7 @@ $ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one
 
 ## Option 2: Init repo and add origin
 
+```bash
 $ cd $LAMDADIR
 $ git init
 $ git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one
