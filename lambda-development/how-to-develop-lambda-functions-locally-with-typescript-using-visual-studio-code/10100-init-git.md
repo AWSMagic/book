@@ -19,7 +19,7 @@ $ cd $LAMBDADIR
 $ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one .
 ```
 
-Continue to [Option A: Configure Manually](how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100A-configure-manually.md)
+Continue to [Option A: Configure Manually](10100A-configure-manually.md)
 
 ## Option B: Use starter-kit and push to your origin
 
@@ -35,4 +35,4 @@ $ git init
 $ git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one
 ```
 
-Continue to [Option B: Use Starter-Kit](how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100B-use-starter-kit.md)
+Continue to [Option B: Use Starter-Kit](10100B-use-starter-kit.md)
