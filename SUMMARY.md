@@ -9,4 +9,6 @@
   * [Create Workspace Folder](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10010-create-folders.md)
   * [Install AWS CLI](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10020-install-aws-cli.md)
   * [Configure AWS Credentials](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10030-configure-aws-credentials.md)
+  * [Create Lambda Folder](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10040-create-lambda-folder.md)
+  * [Initialize Git Repo](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10050-init-git.md)
 
