@@ -35,4 +35,4 @@ $ git init
 $ git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one
 ```
 
-Continue to [Option B: Use Starter-Kit](10100B-use-starter-kit.md)
+Continue to [Option B: Use Starter-Kit](../10100B-use-starter-kit.md#)
