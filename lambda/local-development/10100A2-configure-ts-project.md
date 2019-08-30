@@ -9,7 +9,7 @@ $ tsc --init
 
 The command above will create the `tsconfig.json` file with all the available options. 
 
-Change `tsconfig.json` to look like this below.
+Change `tsconfig.json` to look like below.
 
 ```json
 {
