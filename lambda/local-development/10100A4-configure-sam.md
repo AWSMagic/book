@@ -1,9 +1,9 @@
 # Create SAM Template
 
-Make sure you are in `src` folder.
+Make sure you are in `$LAMBDADIR` folder.
 
 ```bash
-$ cd $LAMBDADIR/src
+$ cd $LAMBDADIR
 ```
 
 Create `template.yaml` file under `src` folder with the content below.

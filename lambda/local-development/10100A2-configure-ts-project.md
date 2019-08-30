@@ -3,7 +3,9 @@
 Create typescript config file.
 
 ```bash
-tsc --init
+$ $ cd $LAMBDADIR
+$ tsc --init
+$ npm install @types/node
 ```
 
 The command above will create the `tsconfig.json` file with all the available options. 
@@ -27,13 +29,4 @@ Change `tsconfig.json` to look like this below.
     "esModuleInterop": true
   }
 }
-```
-
-Create `src` folder and switch to it.
-
-```bash
-$ cd $LAMBDADIR
-$ mkdir src
-$ cd src
-
 ```

@@ -1,12 +1,15 @@
 # Create Lambda Function
 
-Create `index.ts` under `src` folder.
+Create `src` folder and switch to it.
 
 ```bash
-$ cd $LAMBDADIR/src
+$ cd $LAMBDADIR
+$ mkdir src
+$ cd src
+
 ```
 
-Paste the code below into the `index.ts` file.
+Create `index.ts` under `src` folder and paste the code below into the `index.ts` file.
 
 ```typescript
 export const handler = async (event: any = {}, content: any = {}): Promise<any> => {
@@ -16,5 +19,15 @@ export const handler = async (event: any = {}, content: any = {}): Promise<any> 
   console.log(process.env.Stage);
   const response = JSON.stringify(event, null, 2);
   return response;
+}
+```
+
+Create `event.json` for testing.
+
+```json
+{
+  "key1": "value1",
+  "key2": "value2",
+  "key3": "value3"
 }
 ```
