@@ -6,5 +6,5 @@ description: >-
 
 # Lambda Development
 
-Todo here...
+We will configure a mac so we can develop Lambda functions in TypeScript, run and debug with AWS SAM using the Visual Studio Code IDE.
 
