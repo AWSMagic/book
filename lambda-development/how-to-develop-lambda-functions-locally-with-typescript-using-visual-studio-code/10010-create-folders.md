@@ -1,4 +1,4 @@
-# Create Folders
+# Create Workspace Folder
 
 Create `workspace` folder.
 
