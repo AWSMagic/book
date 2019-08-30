@@ -14,7 +14,7 @@
   * [Install Node.js](lambda/local-development/10060-install-node.md)
   * [Install TypeScript](lambda/local-development/10090-install-typescript.md)
   * [Initialize Git Repository](lambda/local-development/10100-init-git.md)
-    * [Configure Manually](lambda/local-development/10100A-configure-manually-md)
+    * [Configure Manually](lambda/local-development/10100A-configure-manually.md)
       * [Create Node Project](lambda/local-development/10100A1-create-node-project.md)
       * [Configure TypeScript](lambda/local-development/10100A2-configure-ts-project.md)
       * [Create Lambda Function](lambda/local-development/10100A3-create-the-function.md)
