@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 If you already have a profile, you may just use it as it is and skip this step.
-{% endhint }
+{% endhint %}
 
 If you already don't have one, create an IAM user and note `aws_access_key_id` and `aws_secret_access_key`. We will put these into `~/.aws/credentials` file. 
 
