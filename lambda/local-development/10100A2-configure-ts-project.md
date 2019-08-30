@@ -1,12 +1,14 @@
 # Configure TypeScript Project
 
-Create typescript config file
+Create typescript config file.
 
 ```bash
 tsc --init
 ```
 
-This will create the tsconfig.json file with all the available options. Change it to look like this below.
+The command above will create the `tsconfig.json` file with all the available options. 
+
+Change it to look like this below.
 
 ```json
 {
@@ -27,7 +29,7 @@ This will create the tsconfig.json file with all the available options. Change i
 }
 ```
 
-Create `src` folder.
+Create `src` folder and switch to it.
 
 ```bash
 $ cd $LAMBDADIR

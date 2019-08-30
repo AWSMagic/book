@@ -5,7 +5,7 @@ We have two options:
 - Option A: Clone the repo to `$LAMDADIR`, if the repo is not empty.
 - Option B: Use starter-kit and push to the repo, if the repo is empty.
 
-## Option A: Clone and Configure Manually
+## Option A: Configure Manually
 
 Assumptions:
 
@@ -19,7 +19,7 @@ $ cd $LAMBDADIR
 $ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one .
 ```
 
-## Option B: Use starter-kit and push to your origin
+## Option B: Use Starter-Kit
 
 Assumptions:
 
