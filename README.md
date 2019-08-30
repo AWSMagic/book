@@ -1,2 +1,2 @@
-# Spells for AWS
+# Welcome to AWS Magic
 

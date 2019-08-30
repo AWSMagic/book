@@ -7,7 +7,7 @@ $ npm init -y
 
 You will see an output similar to below.
 
-```bash
+```json
 Wrote to /Users/ozakan/src/temp/workspace/function-one/package.json:
 
 {

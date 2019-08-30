@@ -4,7 +4,7 @@
 If you already have a profile, you may just use it as it is and skip this step.
 {% endhint %}
 
-If you already don't have one, create an IAM user and note `aws_access_key_id` and `aws_secret_access_key` values. We will put these into `~/.aws/credentials` file. We also chose `us-east-1` as the default region.
+If you already don't have one, create an IAM user and note `aws_access_key_id` and `aws_secret_access_key` values. We will put these into `~/.aws/credentials` file. We will also choose `us-east-1` as the default region.
 
 ```bash
 $ emacs ~/.aws/credentials
