@@ -1,5 +1,7 @@
 # Install TypeScript
 
+We will instal TypeScript globally.
+
 ```bash
 $ sudo npm install -g typescript
 $ tsc --verion
