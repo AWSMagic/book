@@ -2,9 +2,9 @@
 
 * [Welcome](README.md)
 
-## Lambda Development
+## Lambda
 
-* [Lambda Development](lambda/local-development/README.md)
+* [Local Development](lambda/local-development/README.md)
   * [Install VSCode](lambda/local-development/10001-install-vscode.md)
   * [Create Workspace Folder](lambda/local-development/10010-create-folders.md)
   * [Install Docker](lambda/local-development/10015-install-docker.md)
