@@ -2,7 +2,7 @@
 
 We have two options:
 
-- Option A: Clone the repo to `$LAMDADIR`, if the repo is not empty.
+- Option A: Clone the repo to `$LAMBDADIR`, if the repo is not empty.
 - Option B: Use starter-kit and push to the repo, if the repo is empty.
 
 ## Option A: Configure Manually
@@ -28,7 +28,7 @@ Assumptions:
 - You can use starter-kit and push your local folder to codecommit repo.
 
 ```bash
-$ cd $LAMDADIR
+$ cd $LAMBDADIR
 $ git init
 $ git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one
 ```
