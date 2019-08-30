@@ -2,10 +2,10 @@
 
 We have two options:
 
-- Option 1: Clone the repo to `$LAMDADIR`, if the repo is not empty.
-- Option 2: Use starter-kit and push to the repo, if the repo is empty.
+- Option A: Clone the repo to `$LAMDADIR`, if the repo is not empty.
+- Option B: Use starter-kit and push to the repo, if the repo is empty.
 
-## Option 1: Clone and Configure Manually
+## Option A: Clone and Configure Manually
 
 Assumptions:
 
@@ -19,7 +19,9 @@ $ cd $LAMDADIR
 $ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one .
 ```
 
-## Option 2: Use starter-kit and push to your origin
+Continue to [Option A: Configure Manually](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100A-configure-manually-md)
+
+## Option B: Use starter-kit and push to your origin
 
 Assumptions:
 
@@ -33,3 +35,4 @@ $ git init
 $ git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/function-one
 ```
 
+Continue to [Option B: Use Starter-Kit](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100B-use-starter-kit.md)

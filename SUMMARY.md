@@ -14,9 +14,9 @@
   * [Install Node.js](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10060-install-node.md)
   * [Install TypeScript](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10090-install-typescript.md)
   * [Initialize Git Repository](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100-init-git.md)
-    * [Configure Manually](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100A-configure-manually-md)
+    * [Option A: Configure Manually](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100A-configure-manually-md)
       * [Create Node Project](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100A1-create-node-project.md)
-    * [Use Starter-Kit](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100B-use-starter-kit.md)
+    * [Option B: Use Starter-Kit](lambda-development/how-to-develop-lambda-functions-locally-with-typescript-using-visual-studio-code/10100B-use-starter-kit.md)
   
 
 
