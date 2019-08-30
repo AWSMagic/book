@@ -19,7 +19,7 @@
       * [Configure TypeScript](lambda/local-development/10100A2-configure-ts-project.md)
       * [Create Lambda Function](lambda/local-development/10100A3-create-the-function.md)
       * [Configure SAM](lambda/local-development/10100A4-configure-sam.md)
-      * [Configure VSCode](lambda/local-development/10100A4-configure-vscode.md)
+      * [Configure VSCode](lambda/local-development/10100A5-configure-vscode.md)
     * [Use Starter-Kit](lambda/local-development/10100B-use-starter-kit.md)
   
 
