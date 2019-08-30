@@ -1,2 +1,2 @@
-# Spells for AWS
+# Articles
 
