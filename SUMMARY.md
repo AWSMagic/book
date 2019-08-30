@@ -16,6 +16,10 @@
   * [Initialize Git Repository](lambda/local-development/10100-init-git.md)
     * [Configure Manually](lambda/local-development/10100A-configure-manually-md)
       * [Create Node Project](lambda/local-development/10100A1-create-node-project.md)
+      * [Configure TypeScript](lambda/local-development/10100A2-configure-ts-project.md)
+      * [Create Lambda Function](lambda/local-development/10100A3-create-the-function.md)
+      * [Configure SAM](lambda/local-development/10100A4-configure-sam.md)
+      * [Configure VSCode](lambda/local-development/10100A4-configure-vscode.md)
     * [Use Starter-Kit](lambda/local-development/10100B-use-starter-kit.md)
   
 
