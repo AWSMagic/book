@@ -1,5 +1,13 @@
 # Configure SAM
 
+## Install SAM CLI
+
+Under `function-one` folder run the command below to install AWS SAM CLI.
+
+```bash
+$ npm install --update aws-sam-local
+```
+
 ## Create SAM Template
 
 Make sure you are in `$LAMBDADIR` folder.
