@@ -1,5 +1,7 @@
 # Install TypeScript
 
+## Install TypeScript
+
 We will instal TypeScript globally.
 
 ```bash
@@ -9,3 +11,62 @@ Version 3.4.5
 $ npm install @types/node
 ```
 
+## Configure Linting
+
+Configure `tslint` for TypeScript linting. Under `$WORKSPACE` folder (project-one) create `tslint.json` and past the JSON below.
+
+```javascript
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {
+    "no-unused-expression": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "rules": {
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "member-access": [
+      false
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "max-line-length": [
+      true,
+      150
+    ],
+    "member-ordering": [
+      false
+    ],
+    "interface-name": [
+      false
+    ],
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "never",
+        "multiline": {
+          "objects": "ignore",
+          "arrays": "ignore",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        }
+      }
+    ],
+    "rulesDirectory": []
+  }
+}
+```

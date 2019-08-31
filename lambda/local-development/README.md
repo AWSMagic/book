@@ -20,6 +20,7 @@ Eventually, we will have this folder structure;
 
 ```bash
 - project-one
+  - .git
   - .venv
   - .vscode
   - function-one
