@@ -18,7 +18,7 @@ Change these below in `install.sh` as you need.
 {% code-tabs-item title="install.sh" %}
 ```
 ROOTFOLDER=~/src
-PROJECT=project-six
+PROJECT=project-one
 FUNCTIONNAME=function-one
 ...
 ...# truncated
