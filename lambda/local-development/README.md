@@ -7,8 +7,29 @@ description: >-
 # Local Development
 
 {% hint style="success" %}
-Create an environment where we can develop multiple lambda functions locally.
+As a developer, I want to be able to develop, run and debug Lambda functions locally so that I can deliver code faster.
 {% endhint %}
 
-We will configure a mac so we can develop Lambda functions in TypeScript, run and debug with AWS SAM using the Visual Studio Code IDE.
+## Overview
 
+In this document, we will use AWS SAM for local Lambda development using TypeScript. Our choice of IDE will be Visual Studio Code.
+
+## High level folder structure
+
+Eventually, we will have this folder structure;
+
+```bash
+- project-one
+  - .venv
+  - .vscode
+  - function-one
+    - dist
+    - node_modules
+    - package-lock.json
+    - package.json
+    - src
+      - event.json
+      - index.ts
+    - template.yaml
+    - tsconfig.json
+```

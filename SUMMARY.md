@@ -6,7 +6,7 @@
 
 * [Local Development](lambda/local-development/README.md)
   * [Install VSCode](lambda/local-development/10001-install-vscode.md)
-  * [Create Workspace Folder](lambda/local-development/10010-create-folders.md)
+  * [Create Project Folder](lambda/local-development/10010-create-folders.md)
   * [Install Docker](lambda/local-development/10015-install-docker.md)
   * [Install AWS CLI](lambda/local-development/10020-install-aws-cli.md)
   * [Configure AWS Credentials](lambda/local-development/10030-configure-aws-credentials.md)

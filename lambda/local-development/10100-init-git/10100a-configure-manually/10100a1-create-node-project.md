@@ -8,8 +8,6 @@ $ npm init -y
 You will see an output similar to below.
 
 ```javascript
-Wrote to /Users/ozakan/src/temp/workspace/function-one/package.json:
-
 {
   "name": "function-one",
   "version": "1.0.0",
@@ -44,7 +42,7 @@ Replace the content of `package.json` so it will look like below;
   },
   "repository": {
     "type": "git",
-    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/workspace"
+    "url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/project-one"
   },
   "author": "",
   "license": "ISC",

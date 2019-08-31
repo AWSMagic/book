@@ -1,12 +1,14 @@
-# Create Workspace Folder
+# Create Project Folder
 
-Create `workspace` folder.
+We will name the project folder `project-one`.
+
+Create `project-one` folder.
 
 ```bash
 $ cd ~ // switch to the folder you want to work in
-$ mkdir workspace
-$ WORKSPACE=~/workspace/
+$ mkdir project-one
+$ WORKSPACE=~/project-one/
 $ echo $WORKSPACE
-$ /Users/{your_user}/workspace/
+$ /Users/oz/project-one/
 ```
 
