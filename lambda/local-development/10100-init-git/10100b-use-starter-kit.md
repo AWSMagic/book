@@ -43,7 +43,7 @@ nodejs8.10: Pulling from lambci/lambda
 Digest: sha256:bc59e063662af0e2ad2a634e0ca23e10a31ea1db12212da80aebf2ff2d9ee323
 Status: Image is up to date for lambci/lambda:nodejs8.10
 2019/08/31 01:26:49 Invoking dist/index.handler (nodejs8.10)
-2019/08/31 01:26:49 Mounting /Users/ozakan/src/project-six/function-one as /var/task:ro inside runtime container
+2019/08/31 01:26:49 Mounting /Users/oz/project-one/function-one as /var/task:ro inside runtime container
 START RequestId: 7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe Version: $LATEST
 2019-08-31T05:26:50.034Z	7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe	value1 = value1
 2019-08-31T05:26:50.035Z	7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe	value2 = value2
