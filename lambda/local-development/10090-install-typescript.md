@@ -13,8 +13,10 @@ $ npm install @types/node
 
 ## Configure Linting
 
-Configure `tslint` for TypeScript linting. Under `$WORKSPACE` folder (project-one) create `tslint.json` and past the JSON below.
+Configure `tslint` for TypeScript linting. Under `$WORKSPACE` folder \(project-one\) create `tslint.json` and past the JSON below.
 
+{% code-tabs %}
+{% code-tabs-item title="tslint.json" %}
 ```javascript
 {
   "defaultSeverity": "error",
@@ -70,3 +72,6 @@ Configure `tslint` for TypeScript linting. Under `$WORKSPACE` folder (project-on
   }
 }
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
