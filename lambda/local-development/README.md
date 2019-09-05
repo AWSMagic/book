@@ -7,7 +7,7 @@ description: >-
 # Local Development
 
 {% hint style="success" %}
-As a developer, I want to be able to develop, run and debug Lambda functions locally so that I can deliver code faster.
+As a developer, I want to be able to develop, run and debug Lambda functions macOS so that I can deliver code faster.
 {% endhint %}
 
 ## Overview
