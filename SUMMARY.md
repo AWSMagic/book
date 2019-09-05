@@ -8,6 +8,9 @@
   * [Prerequisites](lambda/local/10010-prerequisites.md)
   * [Automatic or Manual?](lambda/local/10015-two-paths.md)
   * [Use Starter Kit](lambda/local/10020-starter-kit.md)
+  * [Manual Configuration](lambda/local/10050-manual/README.md)
+
+## Retired  
 * [Local Development](lambda/local-development/README.md)
   * [Install VSCode](lambda/local-development/10001-install-vscode.md)
   * [Create Project Folder](lambda/local-development/10010-create-folders.md)
