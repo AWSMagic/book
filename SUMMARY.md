@@ -5,7 +5,8 @@
 ## Lambda
 
 * [Local Development](lambda/local/README.md)
-  * [Prerequisite](lambda/local/10010-prerequisites.md)
+  * [Prerequisites](lambda/local/10010-prerequisites.md)
+  * [Use Starter Kit](lambda/local/10020-starter-kit.md)
 * [Local Development](lambda/local-development/README.md)
   * [Install VSCode](lambda/local-development/10001-install-vscode.md)
   * [Create Project Folder](lambda/local-development/10010-create-folders.md)
