@@ -11,7 +11,7 @@ $ cd ~/src
 $ git clone https://github.com/AWSMagic/lambda-typescript-vscode-starter-kit.git
 ```
 
-## Installer Script
+## About Installer Script
 
 Installer `install.sh` accepts three attributes.
 
@@ -24,19 +24,19 @@ Installer `install.sh` accepts three attributes.
 Sample Usage:
 
 ```bash
-$ ./intsall.sh -r ~/src -p project-one -f function-one"
+$ ./intsall.sh -r ~/src -p project-one -f function-one
 ```
 
 The command above is going to create `project-one` folder under `~/src` folder. Then it will create `function-one` folder under `~/src/project-one` folder. Root folder has to exist in order to run the `install.sh` script. Other two folders are going to be created by the `install.sh` script.
 
 ## Run Installer
 
-## Run Installer
-
 ```bash
 $ cd lambda-typescript-vscode-starter-kit/
-$ ./intsall.sh -r ~/src -p project-one -f function-one"
+$ ./intsall.sh -r ~/src -p project-one -f function-one
 ```
+
+If this is the first time you are running this script it will download the docker image required to run lambda function locally. This may take a while to complete.
 
 You will see the output below.
 
@@ -59,3 +59,5 @@ REPORT RequestId: 7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe	Duration: 5.49 ms	Billed 
 
 "{\n  \"key1\": \"value1\",\n  \"key2\": \"value2\",\n  \"key3\": \"value3\"\n}"
 ```
+
+As seen above `install.sh` ran the `function-one` lambda function locally to test the installation. If you don't see the `"{\n  \"key1\": \"value1\",\n  \"key2\": \"value2\",\n  \"key3\": \"value3\"\n}"` at the end of the logs, you might have a problem with the installer.

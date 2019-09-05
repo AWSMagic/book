@@ -6,6 +6,7 @@
 
 * [Local Development](lambda/local/README.md)
   * [Prerequisites](lambda/local/10010-prerequisites.md)
+  * [Automatic or Manual?](lambda/local/10015-two-paths.md)
   * [Use Starter Kit](lambda/local/10020-starter-kit.md)
 * [Local Development](lambda/local-development/README.md)
   * [Install VSCode](lambda/local-development/10001-install-vscode.md)
