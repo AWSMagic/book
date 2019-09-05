@@ -14,7 +14,11 @@ As a developer, I want to be able to develop, run and debug Lambda functions on 
 
 In this document, we will use AWS SAM for local Lambda development using TypeScript. Our choice of IDE will be Visual Studio Code.
 
+You can either follow scripted method or manual steps to understand what is happening.
+
 ## High level folder structure
+
+>TODO: correct this
 
 Eventually, we will have this folder structure;
 
