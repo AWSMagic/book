@@ -12,3 +12,4 @@
     * [Environment Variables](lambda/local/10050-manual/10050m01-env.md)
     * [Python Setup](lambda/local/10050-manual/10050m10-python.md)
     * [Node Setup](lambda/local/10050-manual/10050m20-node.md)
+    * [Source & Config Files](lambda/local/10050-manual/10050m30-config.md)
