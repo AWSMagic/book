@@ -18,8 +18,6 @@ You can either follow scripted method or manual steps to understand what is happ
 
 ## High level folder structure
 
-//TODO: correct the folder structure
-
 Eventually, we will have this folder structure;
 
 ```bash

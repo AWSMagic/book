@@ -1,6 +1,5 @@
 # Manual Configuration
 
-We will install required packages and create several files.
+We will install required packages and create several files, manually.
 
-> Please comment here if you need manual configuration steps!
-
+Let's start.
