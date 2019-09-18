@@ -9,5 +9,6 @@
   * [Starter Kit or Manual?](lambda/local/10015-two-paths.md)
   * [Use Starter Kit](lambda/local/10020-starter-kit.md)
   * [Manual Configuration](lambda/local/10050-manual/README.md)
-    * [Environment Variables](lambda/local/10050-manual/10050a1-env.md)
-    * [Python Setup](lambda/local/10050-manual/10050a10-python.md)
+    * [Environment Variables](lambda/local/10050-manual/10050m01-env.md)
+    * [Python Setup](lambda/local/10050-manual/10050m10-python.md)
+    * [Node Setup](lambda/local/10050-manual/10050m20-node.md)
