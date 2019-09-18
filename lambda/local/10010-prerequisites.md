@@ -24,3 +24,7 @@ Install docker; the documentation here [https://docs.docker.com/install/](https:
 ## Install Node.js
 
 Documentation is here: [https://nodejs.org/en/](https://nodejs.org/en/)
+
+## Install Python 3
+
+Install Python; documentation here [https://www.python.org/downloads/](https://www.python.org/downloads/)
