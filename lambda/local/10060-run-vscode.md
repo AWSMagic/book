@@ -24,5 +24,5 @@ Press `shift + command + P` and select `Tasks: Run Task` and then select`npm: sa
 
 ![](../../.gitbook/assets/vscode1005.png)
 
-Final screenshot shows we are able to run the lambda function from VSCode.
+Final screenshot shows that we are able to run the lambda function from VSCode.
 

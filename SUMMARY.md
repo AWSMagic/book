@@ -15,4 +15,5 @@
     * [Source & Config Files](lambda/local/10050-manual/10050m30-config.md)
     * [Test The Configuration](lambda/local/10050-manual/10050m40-test.md)
   * [Run Lambda in VSCode](lambda/local/10060-run-vscode.md)
+  * [Debug Lambda in VSCode](lambda/local/10070-debug-vscode.md)
 
