@@ -6,7 +6,7 @@ To debug a lambda function, first we need to set break points. Open `index.ts` f
 
 
 
-Press `shift + command + P` and select `Tasks: Run Task` and then select`npm: debug - function-one`
+Press `shift + command + P` and select `Tasks: Run Task` and then select`npm: debug - function-one` Finally press `F5`  to start debugging process.
 
 ![](../../.gitbook/assets/vscode1003.png)
 
@@ -14,7 +14,7 @@ Press `shift + command + P` and select `Tasks: Run Task` and then select`npm: de
 
 ![](../../.gitbook/assets/vscode-debug1003.png)
 
-Below you can see the variable values during the run time.
+Below you can see the variable values after `F5` is pressed \(debugging started\).
 
 ![](../../.gitbook/assets/vscode-debug1004.png)
 
