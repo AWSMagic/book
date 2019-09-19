@@ -20,7 +20,6 @@ In order to run SAM locally, we need to install docker.
 
 Install docker; the documentation here [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
-
 ## Install Node.js
 
 Documentation is here: [https://nodejs.org/en/](https://nodejs.org/en/)
@@ -28,3 +27,4 @@ Documentation is here: [https://nodejs.org/en/](https://nodejs.org/en/)
 ## Install Python 3
 
 Install Python; documentation here [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
