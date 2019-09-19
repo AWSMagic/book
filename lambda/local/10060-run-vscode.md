@@ -1,6 +1,12 @@
 # Run Lambda in VSCode
 
-## First Transpile TypeScript
+## Open The Project
+
+Open Visual Studio Code and open `project-one` folder.
+
+![](../../.gitbook/assets/screen-shot-2019-09-18-at-9.46.10-pm.png)
+
+## First "Transpile" TypeScript
 
 Press `Shift + Command + B` and select `npm: build - function-one`
 
