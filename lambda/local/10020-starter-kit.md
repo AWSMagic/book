@@ -9,6 +9,7 @@ Switch to a folder where you want to clone the starter kit to. Below we clone to
 ```bash
 $ cd ~/src
 $ git clone https://github.com/AWSMagic/lambda-typescript-vscode-starter-kit.git
+$ cd lambda-typescript-vscode-starter-kit
 ```
 
 ## About Installer Script
@@ -34,6 +35,15 @@ The command above is going to create `project-one` folder under `~/src` folder. 
 ```bash
 $ cd lambda-typescript-vscode-starter-kit/
 $ ./intsall.sh -r ~/src -p project-one -f function-one
+
+Captured these as requirements:
+root folder: /Users/oz/src/
+project name: project-one
+function name: function-one
+workspace folder: /Users/oz/src/project-one
+configuration folder (pwd): /Users/oz/src/lambda-typescript-vscode-starter-kit
+
+Do you want to continue? (y/n) y
 ```
 
 If this is the first time you are running this script it will download the docker image required to run lambda function locally. This may take a while to complete.
