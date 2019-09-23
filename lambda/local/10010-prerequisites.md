@@ -28,3 +28,5 @@ Documentation is here: [https://nodejs.org/en/](https://nodejs.org/en/)
 
 Install Python; documentation here [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
+Install Python `virtualenv` package. [https://pypi.org/project/virtualenv/](https://pypi.org/project/virtualenv/)
+

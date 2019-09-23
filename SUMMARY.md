@@ -18,4 +18,3 @@
   * [Debug Lambda in VSCode](lambda/local/10070-debug-vscode.md)
   * [Deploy Lambda Function](lambda/local/10080-deploy.md)
 
-

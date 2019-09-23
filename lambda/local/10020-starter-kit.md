@@ -25,22 +25,22 @@ Installer `install.sh` accepts three attributes.
 Sample Usage:
 
 ```bash
-$ ./intsall.sh -r ~/src -p project-one -f function-one
+$ ./intsall.sh -r ~/src -p projectOne -f functionOne
 ```
 
-The command above is going to create `project-one` folder under `~/src` folder. Then it will create `function-one` folder under `~/src/project-one` folder. Root folder has to exist in order to run the `install.sh` script. Other two folders are going to be created by the `install.sh` script.
+The command above is going to create `projectOne` folder under `~/src` folder. Then it will create `functionOne` folder under `~/src/projectOne` folder. Root folder has to exist in order to run the `install.sh` script. Other two folders are going to be created by the `install.sh` script.
 
 ## Run Installer
 
 ```bash
 $ cd lambda-typescript-vscode-starter-kit/
-$ ./intsall.sh -r ~/src -p project-one -f function-one
+$ ./intsall.sh -r ~/src -p projectOne -f functionOne
 
 Captured these as requirements:
 root folder: /Users/oz/src/
-project name: project-one
-function name: function-one
-workspace folder: /Users/oz/src/project-one
+project name: projectOne
+function name: functionOne
+workspace folder: /Users/oz/src/projectOne
 configuration folder (pwd): /Users/oz/src/lambda-typescript-vscode-starter-kit
 
 Do you want to continue? (y/n) y
@@ -58,7 +58,7 @@ nodejs8.10: Pulling from lambci/lambda
 Digest: sha256:bc59e063662af0e2ad2a634e0ca23e10a31ea1db12212da80aebf2ff2d9ee323
 Status: Image is up to date for lambci/lambda:nodejs8.10
 2019/08/31 01:26:49 Invoking dist/index.handler (nodejs8.10)
-2019/08/31 01:26:49 Mounting /Users/oz/src/project-one/function-one as /var/task:ro inside runtime container
+2019/08/31 01:26:49 Mounting /Users/oz/src/projectOne/functionOne as /var/task:ro inside runtime container
 START RequestId: 7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe Version: $LATEST
 2019-08-31T05:26:50.034Z    7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe    value1 = value1
 2019-08-31T05:26:50.035Z    7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe    value2 = value2
@@ -70,5 +70,5 @@ REPORT RequestId: 7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe    Duration: 5.49 ms    B
 "{\n  \"key1\": \"value1\",\n  \"key2\": \"value2\",\n  \"key3\": \"value3\"\n}"
 ```
 
-As seen above `install.sh` ran the `function-one` lambda function locally to test the installation. If you don't see the `"{\n \"key1\": \"value1\",\n \"key2\": \"value2\",\n \"key3\": \"value3\"\n}"` at the end of the logs, you might have a problem with the installer.
+As seen above `install.sh` ran the `functionOne` lambda function locally to test the installation. If you don't see the `"{\n \"key1\": \"value1\",\n \"key2\": \"value2\",\n \"key3\": \"value3\"\n}"` at the end of the logs, you might have a problem with the installer.
 
