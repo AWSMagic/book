@@ -10,6 +10,7 @@ Switch to a folder where you want to clone the starter kit to. Below we clone to
 $ cd ~/src
 $ git clone https://github.com/AWSMagic/lambda-typescript-vscode-starter-kit.git
 $ cd lambda-typescript-vscode-starter-kit
+$ git checkout v1.0.0
 ```
 
 ## About Installer Script
