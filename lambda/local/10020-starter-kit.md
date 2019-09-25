@@ -10,7 +10,6 @@ Switch to a folder where you want to clone the starter kit to. Below we clone to
 $ cd ~/src
 $ git clone https://github.com/AWSMagic/lambda-typescript-vscode-starter-kit.git
 $ cd lambda-typescript-vscode-starter-kit
-$ git checkout v1.0.0
 ```
 
 ## About Installer Script
@@ -19,29 +18,31 @@ Installer `install.sh` accepts three attributes.
 
 ```text
 -r: root folder
--p: project name
+-a: application name
 -f: function name
+-b: s3 bucket name, you must create this bucket in advance
+-p: AWS CLI profile name
 ```
 
 Sample Usage:
 
 ```bash
-$ ./intsall.sh -r ~/src -p projectOne -f functionOne
+$ ./intsall.sh -r ~/src -a appOne -f functionOne -b ozlambdabucket -p lambdadev
 ```
 
-The command above is going to create `projectOne` folder under `~/src` folder. Then it will create `functionOne` folder under `~/src/projectOne` folder. Root folder has to exist in order to run the `install.sh` script. Other two folders are going to be created by the `install.sh` script.
+The command above is going to create `appOne` folder under `~/src` folder. Then it will create `functionOne` folder under `~/src/appOne` folder. Root folder has to exist in order to run the `install.sh` script. Other two folders are going to be created by the `install.sh` script.
 
 ## Run Installer
 
 ```bash
 $ cd lambda-typescript-vscode-starter-kit/
-$ ./intsall.sh -r ~/src -p projectOne -f functionOne
+$ ./intsall.sh -r ~/src -a appOne -f functionOne -b ozlambdabucket -p lambdadev
 
 Captured these as requirements:
 root folder: /Users/oz/src/
-project name: projectOne
+application name: appOne
 function name: functionOne
-workspace folder: /Users/oz/src/projectOne
+workspace folder: /Users/oz/src/appOne
 configuration folder (pwd): /Users/oz/src/lambda-typescript-vscode-starter-kit
 
 Do you want to continue? (y/n) y
@@ -59,7 +60,7 @@ nodejs8.10: Pulling from lambci/lambda
 Digest: sha256:bc59e063662af0e2ad2a634e0ca23e10a31ea1db12212da80aebf2ff2d9ee323
 Status: Image is up to date for lambci/lambda:nodejs8.10
 2019/08/31 01:26:49 Invoking dist/index.handler (nodejs8.10)
-2019/08/31 01:26:49 Mounting /Users/oz/src/projectOne/functionOne as /var/task:ro inside runtime container
+2019/08/31 01:26:49 Mounting /Users/oz/src/appOne/functionOne as /var/task:ro inside runtime container
 START RequestId: 7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe Version: $LATEST
 2019-08-31T05:26:50.034Z    7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe    value1 = value1
 2019-08-31T05:26:50.035Z    7b5f4577-2b5f-1dfd-9dad-74e5db26bcbe    value2 = value2
