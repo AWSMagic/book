@@ -1,3 +1,9 @@
+---
+description: >-
+  At some point during your local lambda development journey, you may decide to
+  deploy the lambda function. Below you can find how to do it.
+---
+
 # Deploy Lambda Function
 
 ### Open VSCode Terminal

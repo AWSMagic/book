@@ -4,7 +4,7 @@ description: >-
   Code
 ---
 
-# Local Development
+# Local Lambda Development
 
 {% hint style="success" %}
 As a developer, I want to be able to develop, run and debug Lambda functions on macOS so that I can deliver code faster.
