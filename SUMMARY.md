@@ -19,3 +19,7 @@
   * [Deploy Lambda Function](lambda/local/10080-deploy.md)
 * [Lambda & API GW](lambda/lambda-+-api-gw.md)
 
+## TypeScript
+
+* [Promises](typescript/promises.md)
+
